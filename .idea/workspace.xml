@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae5f99b6-28e2-4628-8ab3-c8024b5d8d86" name="Default Changelist" comment="editing our service section" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="23r3wutQhEjSYSepVkiPJiiQbJC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets/img/team" />
+      <recent name="$PROJECT_DIR$/assets/img/slider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/slider" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae5f99b6-28e2-4628-8ab3-c8024b5d8d86" name="Default Changelist" comment="" />
+      <created>1642478620983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642478620983</updated>
+      <workItem from="1642478622270" duration="1638000" />
+      <workItem from="1642500820586" duration="1335000" />
+      <workItem from="1642527231079" duration="3637000" />
+      <workItem from="1642700809757" duration="2243000" />
+      <workItem from="1643923056971" duration="578000" />
+      <workItem from="1644672976842" duration="1000" />
+      <workItem from="1644683981392" duration="251000" />
+      <workItem from="1644696852279" duration="38000" />
+      <workItem from="1644700062487" duration="140000" />
+    </task>
+    <task id="LOCAL-00001" summary="edit slider photo in index and index-02">
+      <created>1642479637041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642479637041</updated>
+    </task>
+    <task id="LOCAL-00002" summary="editing main style to min file and editing social icons">
+      <created>1642502799344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642502799344</updated>
+    </task>
+    <task id="LOCAL-00003" summary="editing header section">
+      <created>1642529178455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642529178455</updated>
+    </task>
+    <task id="LOCAL-00004" summary="editing our service section">
+      <created>1642530498663</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642530498663</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit slider photo in index and index-02" />
+    <MESSAGE value="editing main style to min file and editing social icons" />
+    <MESSAGE value="editing header section" />
+    <MESSAGE value="editing our service section" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing our service section" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
