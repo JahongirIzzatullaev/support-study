@@ -2,56 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5f99b6-28e2-4628-8ab3-c8024b5d8d86" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/assets/bg-img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bg-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logo-ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logo-ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-1-one-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-1-one-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-2-one-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-2-one-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-3-one-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-3-one-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-4-one-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-4-one-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-5-one-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-5-one-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-6-one-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-6-one-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-7-one-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-7-one-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-8-one-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-8-one-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-9-one-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-9-one-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/student-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-1-one-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-2-one-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-3-one-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-4-one-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-5-one-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-6-one-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-7-one-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-8-one-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-9-one-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-9.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-404-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-404-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-about-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-about-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-blog-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-blog-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-blog-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-blog-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-contact-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-contact-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-contact-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-contact-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-our-people-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-our-people-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-partners-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-partners-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-pricing-table-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-pricing-table-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-projects-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-projects-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-search-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-search-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-services-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-services-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-single-post-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-single-post-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-single-project-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-single-project-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-single-service-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-single-service-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-single-service-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-single-service-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-testimonials-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-testimonials-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/part-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/part-carousel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-counter.html" beforeDir="false" afterPath="$PROJECT_DIR$/part-counter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/part-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-image-block.html" beforeDir="false" afterPath="$PROJECT_DIR$/part-image-block.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-image-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/part-image-gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-person.html" beforeDir="false" afterPath="$PROJECT_DIR$/part-person.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/part-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-text-block.html" beforeDir="false" afterPath="$PROJECT_DIR$/part-text-block.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-video-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/part-video-gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-404-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-about-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-about-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-blog-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-blog-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-contact-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-contact-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-our-people-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-our-people.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-partners-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-partners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-pricing-table-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-projects-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-search-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-services-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-single-post-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-single-project-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-single-project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-single-service-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-single-service-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-testimonials-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-image-block.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-person.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-section.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-text-block.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-video-gallery.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23r3wutQhEjSYSepVkiPJiiQbJC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,18 +76,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets/img/team" />
       <recent name="$PROJECT_DIR$/assets/img/slider" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/img/slider" />
     </key>
   </component>
@@ -106,7 +114,10 @@
       <workItem from="1644700203553" duration="259000" />
       <workItem from="1644765931046" duration="22000" />
       <workItem from="1644839037914" duration="279000" />
-      <workItem from="1645286170848" duration="2899000" />
+      <workItem from="1645286170848" duration="2967000" />
+      <workItem from="1645388923050" duration="1422000" />
+      <workItem from="1645823870330" duration="75000" />
+      <workItem from="1645824238329" duration="2330000" />
     </task>
     <task id="LOCAL-00001" summary="edit slider photo in index and index-02">
       <created>1642479637041</created>
@@ -143,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644700348524</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1645293016806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645293016806</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
