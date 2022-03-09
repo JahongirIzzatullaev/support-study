@@ -1,60 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae5f99b6-28e2-4628-8ab3-c8024b5d8d86" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/assets/bg-img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bg-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logo-ss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logo-ss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
+    <list default="true" id="ae5f99b6-28e2-4628-8ab3-c8024b5d8d86" name="Default Changelist" comment="delete unused files and editing styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/student-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-1-one-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-2-one-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-3-one-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-4-one-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-5-one-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-6-one-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-7-one-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-8-one-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-9-one-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-404-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-blog-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-blog-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-contact-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-contact-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-our-people-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-our-people.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-partners-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-partners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-pricing-table-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-projects-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-search-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-services-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-single-post-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-single-project-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-single-project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-single-service-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-single-service-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-testimonials-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-image-block.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-person.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-text-block.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/part-video-gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +66,8 @@
       <workItem from="1645286170848" duration="2967000" />
       <workItem from="1645388923050" duration="1422000" />
       <workItem from="1645823870330" duration="75000" />
-      <workItem from="1645824238329" duration="2330000" />
+      <workItem from="1645824238329" duration="2943000" />
+      <workItem from="1646840942499" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="edit slider photo in index and index-02">
       <created>1642479637041</created>
@@ -161,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645293016806</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delete unused files and editing styles">
+      <created>1645827088477</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645827088477</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +142,8 @@
     <MESSAGE value="editing header section" />
     <MESSAGE value="editing our service section" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="delete unused files and editing styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete unused files and editing styles" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
