@@ -146,6 +146,16 @@
     color: var(--white-color);
 }
 
+.outline-button.red-btn{
+    color: #07395c;
+    border-color: #07395c;
+}
+.outline-button.red-btn:hover, .outline-button.red-btn:focus {
+    border-color: #07395c;
+    background-color: #07395c;
+    color: var(--white-color);
+}
+
 /* #endregion Button */
 
 /* #region Effect */

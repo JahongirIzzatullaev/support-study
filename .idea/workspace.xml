@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae5f99b6-28e2-4628-8ab3-c8024b5d8d86" name="Default Changelist" comment="delete unused files and editing styles">
+    <list default="true" id="ae5f99b6-28e2-4628-8ab3-c8024b5d8d86" name="Default Changelist" comment="editing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +69,7 @@
       <workItem from="1645388923050" duration="1422000" />
       <workItem from="1645823870330" duration="75000" />
       <workItem from="1645824238329" duration="2943000" />
-      <workItem from="1646840942499" duration="362000" />
+      <workItem from="1646840942499" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="edit slider photo in index and index-02">
       <created>1642479637041</created>
@@ -118,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645827088477</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="editing">
+      <created>1646841904866</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646841904866</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +152,8 @@
     <MESSAGE value="editing our service section" />
     <MESSAGE value="first commit" />
     <MESSAGE value="delete unused files and editing styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete unused files and editing styles" />
+    <MESSAGE value="editing" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
