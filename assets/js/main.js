@@ -6,7 +6,7 @@
 * Version  : 1.0.0
 * Author   : Codings
 * Support  : codings.dev
-* 
+*
 ----------------------------------------------*/
 
 /*----------------------------------------------
@@ -15,8 +15,8 @@
 
 1. Preloader
 2. Responsive Menu
-3. Navigation 
-4. Slides 
+3. Navigation
+4. Slides
 5. Particles
 6. Progress Bar
 7. Shuffle
@@ -39,7 +39,7 @@ jQuery(function ($) {
 
     setTimeout(function() {
         preloader.addClass('ready');
-        
+
     }, preloader.data('timeout'))
 })
 
@@ -73,7 +73,7 @@ jQuery(function ($) {
         $(this).addClass('children-'+children);
     })
 
-    
+
     $('.menu .nav-item.dropdown').each(function() {
         var children = $(this).children('.nav-link');
         children.addClass('prevent');
@@ -136,7 +136,7 @@ jQuery(function ($) {
                     if ($(window).scrollTop() >= window.innerHeight) {
                         navbar.removeClass('visible').addClass('hidden');
                     }
-                }                
+                }
 
                 toTop.fadeOut('fast');
 
@@ -149,7 +149,7 @@ jQuery(function ($) {
                 if ($(window).scrollTop() <= 100) {
                     navbar.removeClass('navbar-sticky');
 
-                } else {                   
+                } else {
 
                     if(!navbar.hasClass('navbar-no-fixed')) {
                         navbar.addClass('visible');
@@ -201,7 +201,7 @@ jQuery(function ($) {
         let target = $.attr(this, 'href');
 
         if($(target).length > 0) {
-        
+
             if (href.length > 1 && href.indexOf('#') != -1) {
                 $('html, body').animate({
                     scrollTop: $(target).offset().top
@@ -322,7 +322,7 @@ jQuery(function ($) {
                 let title = $('.full-slider .title');
                 let description = $('.full-slider .description');
                 let btn = $('.full-slider .buttons');
-                
+
                 title.attr('data-aos-delay', 400);
                 description.attr('data-aos-delay', 800);
                 btn.attr('data-aos-delay', 1200);
@@ -437,20 +437,20 @@ jQuery(function($) {
 
         $(document).one('inview', item, function(event, inview) {
 
-            if (inview) {            
-    
+            if (inview) {
+
                 $(item).each(function() {
-    
+
                     var percent = $(this).data('percent');
                     var pcolor  = getComputedStyle(document.documentElement).getPropertyValue('--secondary-color');
                     var scolor  = getComputedStyle(document.documentElement).getPropertyValue('--secondary-color');
-    
+
                     if ( $(section).hasClass('odd')) {
                         var tmode = 'rgba(255, 255, 255, 0.075)';
                     } else {
                         var tmode = 'rgba(0, 0, 0, 0.075)';
                     }
-    
+
                     if ( $(section).hasClass('preloader') || $(section).hasClass('skills')) {
                         var symbol = '<i>%</i>';
                     } else {
@@ -462,19 +462,19 @@ jQuery(function($) {
                     } else {
                         var height = 110;
                     }
-    
+
                     $(this).radialProgress({
                         value: (percent / 100),
                         size: height,
                         thickness: 10,
                         lineCap: 'butt',
                         emptyFill: tmode,
-                        animation: { 
-                            duration: duration, 
-                            easing: "radialProgressEasing" 
+                        animation: {
+                            duration: duration,
+                            easing: "radialProgressEasing"
                         },
                         fill: {
-                            gradient: [[pcolor, 0.1], [scolor, 1]], 
+                            gradient: [[pcolor, 0.1], [scolor, 1]],
                             gradientAngle: Math.PI / 4
                         }
                     }).on('radial-animation-progress', function(event, progress) {
@@ -484,7 +484,7 @@ jQuery(function($) {
             }
         })
     }
-    
+
     let preloader = $('.preloader');
     let preloader_timeout = ( preloader.data('timeout') - 800);
 
@@ -509,18 +509,18 @@ jQuery(function ($) {
         $(this).find('.filter-item').removeClass('filter-item').addClass('filter-item-'+count);
         $(this).find('.filter-sizer').removeClass('filter-sizer').addClass('filter-sizer-'+count);
         $(this).find('.btn-filter-item').removeClass('btn-filter-item').addClass('btn-filter-item-'+count);
-        
+
         var Shuffle = window.Shuffle;
         var Filter  = new Shuffle(document.querySelector('.filter-items-'+count), {
             itemSelector: '.filter-item-'+count,
             sizer: '.filter-sizer-'+count,
             buffer: 1,
         })
-    
+
         $('.btn-filter-item-'+count).on('change', function (e) {
-    
+
             var input = e.currentTarget;
-            
+
             if (input.checked) {
                 Filter.filter(input.value);
             }
@@ -536,11 +536,11 @@ jQuery(function ($) {
 
     'use strict';
 
-    $(document).on('click', 'a[data-target="#register"]', function() { 
+    $(document).on('click', 'a[data-target="#register"]', function() {
         $('#sign').modal('hide');
     })
 
-    $(document).on('click', 'a[data-target="#sign"]', function() { 
+    $(document).on('click', 'a[data-target="#sign"]', function() {
         $('#register').modal('hide');
     })
 
@@ -573,11 +573,11 @@ jQuery(function ($) {
 
             if ($('input[name="reCAPTCHA"]').length) {
                 let reCAPTCHA = $('input[name="reCAPTCHA"]');
-    
+
                 grecaptcha.ready(function() {
-                    grecaptcha.execute(reCAPTCHA.data('key'), { action: "create_comment" }).then(function(token) { 
-                        reCAPTCHA.val(token); 
-                    }) 
+                    grecaptcha.execute(reCAPTCHA.data('key'), { action: "create_comment" }).then(function(token) {
+                        reCAPTCHA.val(token);
+                    })
                 })
             }
 
@@ -587,7 +587,7 @@ jQuery(function ($) {
                 type: 'POST',
                 url: url,
                 data: form.serialize(),
-                success: function(response) {                    
+                success: function(response) {
 
                     try {
                         JSON.parse(response);
@@ -607,20 +607,20 @@ jQuery(function ($) {
                             }, 1200);
 
                             input.each(function() {
-                                let input_name = $(this).attr('name');                     
+                                let input_name = $(this).attr('name');
 
                                 if(obj.fields[input_name] == true) {
-                                    $(ID+' .field-'+input_name).removeClass('valid').addClass('invalid'); 
-                                } else { 
+                                    $(ID+' .field-'+input_name).removeClass('valid').addClass('invalid');
+                                } else {
                                     $(ID+' .field-'+input_name).removeClass('invalid').addClass('valid');
                                 }
                             })
                         } else {
                             btn.removeClass('effect-motion-bg');
                             input.val('').removeClass('invalid').removeClass('valid');
-                            alert.text(obj.info).removeClass('valid').addClass('invalid').fadeIn();                        
-                        
-                        } 
+                            alert.text(obj.info).removeClass('valid').addClass('invalid').fadeIn();
+
+                        }
 
                     } catch (e) {
                         btn.removeClass('effect-motion-bg');
@@ -647,15 +647,15 @@ jQuery(function ($) {
     if ($('input[name="reCAPTCHA"]').length) {
 
      let siteKey = "6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"; // Put your site key here
-     
-     if(siteKey) { 
-         $('input[name="reCAPTCHA"]').attr("data-key", siteKey); 
-         grecaptcha.ready(function() { 
-             grecaptcha.execute(siteKey, { action: "create_comment" }).then(function(token) { 
-                 $('input[name="reCAPTCHA"]').val(token); 
-                }) 
-            }) 
-        } 
+
+     if(siteKey) {
+         $('input[name="reCAPTCHA"]').attr("data-key", siteKey);
+         grecaptcha.ready(function() {
+             grecaptcha.execute(siteKey, { action: "create_comment" }).then(function(token) {
+                 $('input[name="reCAPTCHA"]').val(token);
+                })
+            })
+        }
     }
 })
 
@@ -673,9 +673,9 @@ jQuery(function ($) {
 
         // Translate
         gdprCookieNoticeLocales.en = {
-            description: 'We use cookies to offer you a better browsing experience, personalise content and ads, to provide social media features and to analyse our traffic. Read about how we use cookies and how you can control them by clicking Cookie Settings. You consent to our cookies if you continue to use this website.',
-            settings: 'Cookie settings',
-            accept: 'Accept cookies',
+            description: 'Мы используем файлы cookie, чтобы предложить вам более удобный просмотр, персонализировать контент и рекламу, предоставить функции социальных сетей и проанализировать наш трафик. Узнайте о том, как мы используем файлы cookie и как вы можете ими управлять, нажав «Настройки файлов cookie». Вы соглашаетесь с нашими файлами cookie, если продолжаете использовать этот веб-сайт.',
+            settings: 'Настройки файлов cookie',
+            accept: 'Принять файлы cookie',
             statement: 'Our cookie statement',
             save: 'Save settings',
             always_on: 'Always on',
@@ -690,15 +690,15 @@ jQuery(function ($) {
         }
 
         gdprCookieNotice({
-            locale: 'en', // This is the default value
-            timeout: 2000, // Time until the cookie bar appears
-            expiration: 30, // This is the default value, in days
-            domain: window.location.hostname, // If you run the same cookie notice on all subdomains, define the main domain starting with a .
-            implicit: true, // Accept cookies on page scroll automatically
-            statement: 'https://nexgen.codings.dev', // Link to your cookie statement page
-            performance: ['JSESSIONID'], // Cookies in the performance category.
-            analytics: ['ga'], // Cookies in the analytics category.
-            marketing: ['SSID'] // Cookies in the marketing category.
+            locale: 'en',
+            timeout: 2000,
+            expiration: 30,
+            domain: window.location.hostname,
+            implicit: true,
+            statement: 'https://nexgen.codings.dev',
+            performance: ['JSESSIONID'],
+            analytics: ['ga'],
+            marketing: ['SSID']
         })
     }
 })

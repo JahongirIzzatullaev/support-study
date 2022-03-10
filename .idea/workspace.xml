@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5f99b6-28e2-4628-8ab3-c8024b5d8d86" name="Default Changelist" comment="editing">
+      <change afterPath="$PROJECT_DIR$/assets/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/preview.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/truck-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/video-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
     </list>
@@ -27,15 +38,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets/img/team" />
       <recent name="$PROJECT_DIR$/assets/img/slider" />
@@ -69,7 +80,8 @@
       <workItem from="1645388923050" duration="1422000" />
       <workItem from="1645823870330" duration="75000" />
       <workItem from="1645824238329" duration="2943000" />
-      <workItem from="1646840942499" duration="899000" />
+      <workItem from="1646840942499" duration="1029000" />
+      <workItem from="1646933331632" duration="1814000" />
     </task>
     <task id="LOCAL-00001" summary="edit slider photo in index and index-02">
       <created>1642479637041</created>
@@ -127,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646841904866</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="editing">
+      <created>1646842601838</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646842601838</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
