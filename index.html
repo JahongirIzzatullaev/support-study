@@ -464,28 +464,31 @@
                 </div>
                 <div class="row">
                     <div class="col-12 p-0">
-                        <form action="php/form.php" id="nexgen-simple-form" class="nexgen-simple-form">
+                        <form id="contact-form-send" class="nexgen-simple-form">
                             <input type="hidden" name="section" value="nexgen_form">
 
                             <input type="hidden" name="reCAPTCHA">
 
                             <div class="row form-group-margin">
                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                    <input type="text" name="name" class="form-control field-name" placeholder="Имя">
+                                    <input type="text" name="name" id="inputName" class="form-control field-name"
+                                           placeholder="Имя">
                                 </div>
                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                    <input type="text" name="phone" class="form-control field-phone"
+                                    <input type="text" name="phone" id="inputPhone" maxlength="17" class="form-control field-phone"
                                            placeholder="Телефон">
                                 </div>
                                 <div class="col-12 m-0 p-2 input-group">
-                                    <textarea name="message" class="form-control field-message"
+                                    <textarea name="message" id="inputText" class="form-control field-message"
                                               placeholder="Сообщения"></textarea>
                                 </div>
                                 <div class="col-12 col-12 m-0 p-2 input-group">
                                     <span class="form-alert"></span>
                                 </div>
                                 <div class="col-12 input-group m-0 p-2">
-                                    <a class="btn primary-button">ОТПРАВИТЬ</a>
+                                    <button type="button" class="btn primary-button" id="submitForm"
+                                            onclick="sendMessageToDevs()">ОТПРАВИТЬ
+                                    </button>
                                 </div>
                             </div>
                         </form>
@@ -704,21 +707,29 @@
     </div>
 </div>
 
-<!-- Scroll [to top] -->
 <div id="scroll-to-top" class="scroll-to-top">
     <a href="#header" class="smooth-anchor">
         <i class="fas fa-arrow-up"></i>
     </a>
 </div>
 
-<!-- ==============================================
-Google reCAPTCHA // Put your site key here
-=============================================== -->
+<div id="modalForm" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+                <span id="close" class="close" style="color: #fff">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.9688 12.4999L18.448 8.03112C18.6441 7.83497 18.7543 7.56893 18.7543 7.29153C18.7543 7.01414 18.6441 6.7481 18.448 6.55195C18.2518 6.3558 17.9858 6.24561 17.7084 6.24561C17.431 6.24561 17.165 6.3558 16.9688 6.55195L12.5001 11.0311L8.03131 6.55195C7.83516 6.3558 7.56912 6.24561 7.29172 6.24561C7.01433 6.24561 6.74829 6.3558 6.55214 6.55195C6.35599 6.7481 6.2458 7.01414 6.2458 7.29153C6.2458 7.56893 6.35599 7.83497 6.55214 8.03112L11.0313 12.4999L6.55214 16.9686C6.45451 17.0655 6.37701 17.1807 6.32413 17.3076C6.27125 17.4345 6.24402 17.5707 6.24402 17.7082C6.24402 17.8457 6.27125 17.9819 6.32413 18.1088C6.37701 18.2357 6.45451 18.3509 6.55214 18.4478C6.64898 18.5454 6.76419 18.6229 6.89112 18.6758C7.01806 18.7287 7.15421 18.7559 7.29172 18.7559C7.42924 18.7559 7.56539 18.7287 7.69233 18.6758C7.81926 18.6229 7.93447 18.5454 8.03131 18.4478L12.5001 13.9686L16.9688 18.4478C17.0656 18.5454 17.1809 18.6229 17.3078 18.6758C17.4347 18.7287 17.5709 18.7559 17.7084 18.7559C17.8459 18.7559 17.9821 18.7287 18.109 18.6758C18.2359 18.6229 18.3511 18.5454 18.448 18.4478C18.5456 18.3509 18.6231 18.2357 18.676 18.1088C18.7289 17.9819 18.7561 17.8457 18.7561 17.7082C18.7561 17.5707 18.7289 17.4345 18.676 17.3076C18.6231 17.1807 18.5456 17.0655 18.448 16.9686L13.9688 12.4999Z"
+                              fill="#13162c"/>
+                    </svg>
+                </span>
+        </div>
+        <div class="modal-body">
+            <h1 id="modal-content"></h1>
+        </div>
+    </div>
+</div>
 <script src="https://www.google.com/recaptcha/api.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
 
-<!-- ==============================================
-Vendor Scripts
-=============================================== -->
 <script src="assets/js/vendor/jquery.min.js"></script>
 <script src="assets/js/vendor/jquery.easing.min.js"></script>
 <script src="assets/js/vendor/jquery.inview.min.js"></script>
@@ -734,6 +745,65 @@ Vendor Scripts
 <script src="assets/js/vendor/cookie-notice.min.js"></script>
 <script src="assets/js/vendor/particles.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/util.js"></script>
+<script>
+    function sendMessageToDevs() {
+        let modal = document.getElementById('modalForm');
+        let formBtn = document.getElementById('submitForm');
+        let close = document.getElementById("close");
 
+        let name = document.getElementById('inputName').value;
+        let phone = document.getElementById('inputPhone').value;
+        let text = document.getElementById('inputText').value;
+        sendMessage(name, phone, text, modal, formBtn, close);
+    }
+
+    // const isNumericInput = (event) => {
+    //     const key = event.keyCode;
+    //     return ((key >= 48 && key <= 57) ||
+    //         (key >= 96 && key <= 105)
+    //     );
+    // };
+    //
+    // const isModifierKey = (event) => {
+    //     const key = event.keyCode;
+    //     return (event.shiftKey === true || key === 35 || key === 36) ||
+    //         (key === 8 || key === 9 || key === 13 || key === 46) ||
+    //         (key > 36 && key < 41) ||
+    //         (
+    //             (event.ctrlKey === true || event.metaKey === true) &&
+    //             (key === 65 || key === 67 || key === 86 || key === 88 || key === 90)
+    //         )
+    // };
+    //
+    // const enforceFormat = (event) => {
+    //     if (!isNumericInput(event) && !isModifierKey(event)) {
+    //         event.preventDefault();
+    //     }
+    // };
+    //
+    // const formatToPhone = (event) => {
+    //     if (isModifierKey(event)) {
+    //         return;
+    //     }
+    //
+    //     const input = event.target.value.replace(/\D/g, '').substring(0, 12);
+    //     const areaCode = input.substring(0, 3);
+    //     const middle = input.substring(3, 5);
+    //     const last = input.substring(5, 12);
+    //
+    //      if (input.length > 6) {
+    //         event.target.value = `+${areaCode} ${middle} ${last}`;
+    //     } else if (input.length > 3) {
+    //         event.target.value = `+${areaCode} ${middle}`;
+    //     } else if (input.length > 0) {
+    //         event.target.value = `+${areaCode}`;
+    //     }
+    // };
+    //
+    // const inputElement = document.getElementById('inputPhone');
+    // inputElement.addEventListener('keydown', enforceFormat);
+    // inputElement.addEventListener('keyup', formatToPhone);
+</script>
 </body>
 </html>
